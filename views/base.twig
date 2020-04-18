@@ -19,15 +19,12 @@
       <h1>
         <a href="/">{{ site.name }}</a>
       </h1>
-      <div id="menuToggle" class="menu--collapse">MENU</div>
-      {% include "menu.twig" with {'items': menu_header.get_items, 'id': 'menuMain'} %}
     </header>
     <div class="wrapper">
       {% block content %}
         Nothing to see here...
       {% endblock %}
       <footer>
-        {% include "menu.twig" with {'items': menu_footer.get_items} %}
         {{ site.name }} - 2020
       </footer>
     </div>
