@@ -2,6 +2,10 @@
   background-color: $color-background-dark;
   padding: $spacer-small;
   margin-top: $spacer-small;
+  figure {
+    width: 100%;
+    margin: 0;
+  }
   a {
     color: $color-primary;
   }
