@@ -12,15 +12,9 @@ header {
       text-decoration: none;
     }
   }
-}
-
-// Media Queries
-@media screen and (max-width: 500px) {
-  header {
-    flex-direction: column;
-    align-items: start;
-    .menu--collapse {
-      display: flex;
+  .header__instagram {
+    img {
+      width: 50px;
     }
   }
 }
